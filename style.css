@@ -853,6 +853,9 @@ margin-top:  17px;
         padding: 0;
                 margin: 23px;
     }
+    .logo-container{
+    transform: scale(3);
+}
 
     .nav-items div {
         font-size: 16px;
