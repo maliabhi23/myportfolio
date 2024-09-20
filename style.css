@@ -866,6 +866,10 @@ margin-top:  17px;
         padding: 0 1rem;
 
     }
+    
+    .logo-container{
+        margin: 23px;
+    }
         .hero-section-description{
         align-items: center;
         text-align: center;
