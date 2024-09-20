@@ -862,7 +862,9 @@ margin-top:  17px;
     }
         .hero-section-description{
         text-align: center;
-    }
+       margin:3px;
+            }
+    
 
     .hero-section-left {
         text-align: center;
