@@ -792,6 +792,9 @@ margin-top:  17px;
     margin-left: 33px;    
 }
 
+    .nav-items div {
+        font-size: 23px;
+    }
 .hero-section
 {
     display: flex;
