@@ -861,9 +861,10 @@ margin-top:  17px;
 
     }
         .hero-section-description{
+        align-items: center;
         text-align: center;
-       margin:13px;
-            }
+        margin: 3px;
+        }
     
 
     .hero-section-left {
