@@ -860,6 +860,9 @@ margin-top:  17px;
         padding: 0 1rem;
 
     }
+        .hero-section-description{
+        text-align: center;
+    }
 
     .hero-section-left {
         text-align: center;
