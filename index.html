@@ -2,449 +2,346 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhishek Mali</title>
-    
-    <link rel="icon" href="favicon.png" type="image/png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+    <title>Portfolio Website - Abhishek Mali</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
+  <script>
+    document.addEventListener("contextmenu", function (event) {
+      event.preventDefault();
+    });
+  
+    document.addEventListener("keydown", function (event) {
+      if (
+        event.ctrlKey && (event.key === "u" || event.key === "U" || event.key === "i" || event.key === "I") || 
+        event.key === "F12"
+      ) {
+        event.preventDefault();
+      }
+    });
+  </script>
+
 <body>
     
-    <div class="wrapper">   
+    <div id="wrapper">
+
         <div class="container">
-            
             <div class="navbar">
                 
                 <div class="logo-container">
-                    
-                    <img src="the_mya_logo.png" class="logo">  
-                    <div class="logo-text"> bhishek  Mali</div>
-                    
+                    <img src="./images/userAsset/logo_a_image.webp" class="logo">
+                    <div class="logo-text">bhishek Mali</div>
                 </div>
-                
                 
                 <div class="nav-items">
-                    <div> <a href="#Projects"> Projects</a> </div>
-                    <div> <a href="#skills"> skills</a> </div>
-                    <div> <a href="#contactme"> Contact Me</a> </div>  
-                </div>
-                
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="mailto:abhishekmali9503@gmail.om">Contact Me</a></div>
+                    <!-- <a href="" class="btn-pink">Contact Me</a> -->
+
+                  </div>
+
             </div>
-            
-            
-            
-            <div class="hero-section">
+
+            <div class="hero-section ">
+
                 <div class="faded-text">Abhishek Mali</div>
                 
+                <!-- <div class="faded-text-3"> Vit'26 </div> -->
+                
                 <div class="hero-section-left">
+                    <div class="hero-section-heading">Hi! Abhishek Mali</div>
                     
-                    <div class="hero-section-heading">Hiii Abhishek Mali </div>
-                    
-                    <div class="hero-section-sub-heaing hero-section-heading">
-                        Iam an the <span class="role"> </span>
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        I am a <span class="role"></span>
                     </div>
-                    
+    
                     <div class="hero-section-description">
-                        Iam the software developer, I am eager to learn the new  things where i can get opportunity i can give my 100 %...
-                    </div>     
-                    
-                    <div class="hiremebutton">
-                    <a href="https://drive.google.com/file/d/1WnCPlIkXf9cClqK1Lu2s67dsTB_2QxOg/view?usp=drivesdk">
-                        <div class="btn-pink" id="btn"> About Me</div>
-                        </a>
+                        I’m a software developer and here is my portfolio
+                        website. 
+                        I enjoy collaborating and connecting with like-minded individuals, always seeking opportunities to refine my skills and push the boundaries of programming excellence. 🚀
                     </div>
+                    
+                      <a href="https://drive.google.com/file/d/1HauJYZa9I3ejQzrXOaZlGUtOzuqVV27c/view" >
+                        <div class="btn-pink" id="btn">Hire me</div>
+                      </a>  
+
+                    
+    
                 </div>
-                
-                
+    
                 <div class="hero-section-right">
-                    
                     <div class="absolute icons icon-dots">
-                        <img src="dots.png">
-                    </div>
-                    <div class="absolute icons icon-cube">
-                        <img src="cube.png">
-                    </div>
-                    <div class="absolute icons icon-circle">
-                        <img src="circle.png">
-                    </div>
-                    <div class="absolute icons icon-zigzak">
-                        <img src="zigzags.png">
-                    </div>
-                    <div class="absolute icons icon-plus">
-                        <img src="plus.png">
-                    </div>
-                    
-                    
-                    
-                    <div class="user-image">
-                        <img src="UserImageabhi.jpg">
-                    </div>
-                    
-                    
+                        <img src="./images/userAsset/dots.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-cube">
+                        <img src="./images/userAsset/cube.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-circle">
+                        <img src="./images/userAsset/circle.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-zigzag">
+                        <img src="./images/userAsset/zigzags.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-plus">
+                        <img src="./images/userAsset/plus.png" alt="" />
+                      </div>
+                      <div class="user-image">
+                        <img src="./images/userAsset/mine_ytb_image.jpg" alt="" />
+                      </div>
                 </div>
-                
-                
-            </div>
-            
-            
-        </div>     
-        
-        <div class="project-section ">
-            
-            <div class="page-header" id="Projects" ><h1>Projects </h1></div>
-            
-            <div class="project-container">
-               
-                <div class="project-card" id="project1">
-                    <div class="project-number project-number-right">01</div>
-                    <div class="project-content">
-                        
- 
-                        <div class="project-skills-container">
-                            <!--icons -->
-                            <img class="project-skill" src="HTML.png">
-                            <img class="project-skill" src="CSS.png">
-
-                            <img class="project-skill" src="Javascript.svg">
-                            <!-- <img class="project-skill" src="Express.png">
-                            <img class="project-skill" src="NextJsCircle.png"> 
-                            <img class="project-skill" src="Tailwind.png">-->
-                            <!-- <img class="project-skill" src="NodeJs.svg">
-                            <img class="project-skill" src="MongoDB.svg">
-                            <img class="project-skill" src="Redux.svg">
-                            <img class="project-skill" src="Vercel.svg"> -->
-                            
-                    
-                            
-                        </div>
-                        <h2 class="project-heading">Aswad Hotel</h2>
-                        
-                        <p class="project-subheading">Website For Feedback</p>
-                        
-                        <div class="btn-grp">
-                            
-                            <button class="btn-pink btn-project" onclick="window.location.href='https://github.com/maliabhi23/The_Aswad_Hotele'">Read More</button>
-                            
-                            <a href="">
-                                <i title="Githublink" class="fa-brands "></i>
-                            </a>
-                            
-                            <a href="">
-                                <i title="Live link" class="fa-solid "></i>
-                            </a>
-                            
-                            
-                        </div>
-                        
-                        
-                    </div>    
-                </div>
-                
-                
-                
-                
-                
-                
-                <div class="project-card project-content-left" id="project2" >
-                    <div class="project-number project-number-left" >02</div>
-                    <div class="project-content">
-                        
-                        
-                        <div class="project-skills-container">
-                            <!--icons -->
-                            <img class="project-skill" src="HTML.png">
-                            <img class="project-skill" src="CSS.png">
-                            <img class="project-skill" src="Javascript.svg">
-
-                            <!--  
-                            <img class="project-skill" src="Express.png">
-                            <img class="project-skill" src="NextJsCircle.png">
-                            <img class="project-skill" src="NodeJs.svg">
-                            <img class="project-skill" src="MongoDB.svg">
-                            <img class="project-skill" src="Redux.svg">
-                            <img class="project-skill" src="Vercel.svg">
-                             -->
-                            
-                            
-                            
-                        </div>
-                        <h2 class="project-heading">WeatherApp</h2>
-                        
-                        <p class="project-subheading">Displays the windspeed,humidity,clouds</p>
-                        
-                        <div class="btn-grp">
-                            
-                            <button class="btn-pink btn-project" onclick="window.location.href='https://github.com/maliabhi23/WeatherApp'">Read More</button>
-                        
-                            <!--                             
-                            <a href="https://github.com/maliabhi23/WeatherApp">
-                                <input type="button" class="btn-pink btn-project" value="Read More">
-                            </a> -->
-
-
-                            <a href="https://github.com/maliabhi23/WeatherApp">
-                                <i title="Githublink" class="fa-brands "></i>
-                            </a>
-                            
-                            <a href="">
-                                <i title="Live link" class="fa-solid "></i>
-                            </a>
-                            
-                            
-                        </div>
-                        
-                        
-                    </div>    
-                </div>
-                
-                
-                
-                <div class="project-card" id="project3">
-                    <div class="project-number project-number-right">03</div>
-                    <div class="project-content">
-                        
-                        
-                        <div class="project-skills-container">
-                            <!--icons -->
-                            <img class="project-skill" src="HTML.png">
-                            <img class="project-skill" src="CSS.png">
-                            <img class="project-skill" src="Javascript.svg">
-                            <img class="project-skill" src="Tailwind.png">
-<!-- 
-                            <img class="project-skill" src="Express.png">
-                            <img class="project-skill" src="NextJsCircle.png">
-                            
-                            <img class="project-skill" src="NodeJs.svg">
-                            <img class="project-skill" src="MongoDB.svg">
-                            <img class="project-skill" src="Redux.svg">
-                            <img class="project-skill" src="Vercel.svg"> -->
-                            
-                            
-                            
-                            
-                        </div>
-                        <h2 class="project-heading">PassdGenerator</h2>
-                        
-                        <p class="project-subheading">Generate the Strong Passwords as per the Length </p>
-                        
-                        <div class="btn-grp">
-                            <button class="btn-pink btn-project" onclick="window.location.href='https://github.com/maliabhi23/PasswordGeneratorApp'">Read More</button>
-                            
-                            <a href="">
-                                <i title="Githublink" class="fa-brands "></i>
-                            </a>
-                            
-                            <a href="">
-                                <i title="Live link" class="fa-solid "></i>
-                            </a>
-                            
-                            
-                        </div>
-                        
-                        
-                    </div>    
-                </div>
-                
-                
-                
-                
-                <div class="project-card project-content-left" id="project4">
-                    <div class="project-number project-number-left">04</div>
-                    <div class="project-content">
-                        
-                        
-                        <div class="project-skills-container">
-                            <!--icons -->
-                            <img class="project-skill" src="HTML.png">
-                            <img class="project-skill" src="CSS.png">
-                            <img class="project-skill" src="Javascript.png">
-                            <img class="project-skill" src="Express.png">
-                            <img class="project-skill" src="NextJsCircle.png">
-                            <img class="project-skill" src="Tailwind.png">
-                            <img class="project-skill" src="NodeJs.svg">
-                            <img class="project-skill" src="MongoDB.svg">
-                            <img class="project-skill" src="Redux.svg">
-                            <img class="project-skill" src="Vercel.svg">
-                            
-                            
-                            
-                            
-                        </div>
-                        <h2 class="project-heading">Tine & Orange</h2>
-                        
-                        <p class="project-subheading">Its the car modification company</p>
-                        
-                        <div class="btn-grp">
-                            <button class="btn-pink btn-project">Read More</button>
-                            
-                            <a href="">
-                                <i title="Githublink" class="fa-brands "></i>
-                            </a>
-                            
-                            <a href="">
-                                <i title="Live link" class="fa-solid "></i>
-                            </a>
-                            
-                            
-                        </div>
-                        
-                        
-                    </div>    
-                </div>
-            </div>
-            
-            <div id="skills" class="container skills-container">
-                <div class="skill-fade-text">Skills</div>
-                
-                <div class="skill-container-left">
-                    <h2 class="skill-heading">
-                        <span class="caps">M</span>e and
-                        <br />
-                        MyTech Stack
-                    </h2>
-                    
-                    <div class="skill-subHeading">
-                        <p>
-                            Hi Everyone My name is Abhishek Mali I am a Full Stack Web Developer I
-                            have been Completed My Diploma Now Iam Doing the BTech. Currently I am
-                            working on NextJs and Making Beautiful UI-UX are my fey features
-                        </p>
-                        <p>
-
-                            "Pain itself, sit amet, comes from hard work. Not all difficulties are bad,
-                             but sometimes great pleasures are reduced. We often accuse others of small 
-                             mistakes, feeling like we need to endure great pain. Yet there are times when 
-                             relief comes, and we find no harm in following a better path."
-                        </p>
-                        <p>
-                            Pain itself, sit amet, comes from hard work. Who indeed can hold back the
-                             truth about the pleasures that they possess? No one is to blame for this.
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="skill-container-right">
-                    <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
-                    
-                    <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
-                    <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
-                    <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
-                    <img src="./images/stack/React.png" alt="" class="skills-logo" />
-                    <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
-                    <img src="./images/stack/Next.svg" alt="" class="skills-logo" />
-                    <img src="./images/stack/Redux.svg" alt="" class="skills-logo" />
-                    <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
-                    <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
-                    <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo" />
-                    <img src="./images/stack/Express.png" alt="" class="skills-logo" />
-                    <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
-                    <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
-                    <img src="./images/stack/Graphql.svg" alt="" class="skills-logo" />
-                    <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
-                    <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
-                    <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo" />
-                    <img src="./images/stack/Bash.svg" alt="" class="skills-logo" />
-                    <img src="./images/stack/Docker.svg" alt="" class="skills-logo" />
-                    <img src="./images/stack/K8s.svg" alt="" class="skills-logo" />
-                </div>
-                
-                
-                
-            </div>        
-            
-            
-            <div class="contactus-form-container" id="contactme">
-                <div class="container">
-                    <h1 class="contact-us-heading">Contact Me</h1>
-                    <h3 class="contactus-sub-heading">
-                        Questions,Thoughts,Or Just Want To Say Hello?    
-                    </h3>
-                    
-                    
-                    <form name="fname" class="form">
-                        
-                        <div class="formfield-container">
-                            <input class="formfield" placeholder="enter the your name" type="email" name="email">
-                            <input class="password formfield"  placeholder="enter the your email" type="email" name="email">
-                            <input class="formfield" placeholder="enter the your subject" type="email" name="email">
-                            
-                            <textarea placeholder="Enter your message" name="message" class="formfield"  cols="30" rows="10" class="formfield-textarea"
-                            >
-                        </textarea>
-                        <div>
-                            <button type="submit" class="btn-pink" value="submit" id="submit-btn">
-                                Send message <i class="fa-solid fa-paper-plane"></i>
-                            </button>
-                        </div>
-                        
-                    </div>
-                    
-                </form>
+    
             </div>
         </div>
-        
-        
-        <footer>
-            <div class="container">
-                 <div class="footer-wrapper">
-                        <div class="footer-faded-text">Abhishek Mali</div>
-                            <div class="link-wrapper">
-                                <div>
-                                <a href="#Projects">Projects</a>
-                                 </div>
-                        
-                                 <div>
-                                 <a href="#skills">Skills</a>
-                                 </div>
-            
-                                <div>
-                                <a href="#contactme">Contactus</a>
-                                </div>
-                        
-                            </div>
-                    
-                            <div class="icon-wrapper">
-                                <i class="fa-brands fa-linkedin"></i>
-                                <i class="fa-brands fa-square-github"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-thin fa-envelope"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                            </div>
-                             
+
+        <div id="projects" class="project-section" >
+            <h2 class="page-header">Projects</h2>
+
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Express.png" alt="" />
+                            <!-- <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" /> -->
+                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                            <img class="project-skill" src="./images/stack/NodeJs.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/MongoDB.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Redux.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
                         </div>
-                
-                    
-                      </div>
-                        
+
+                        <h2 class="project-heading">Website Managenment </h2>
+                        <p class="project-sub-heading">
+                          I created a website for Aswad Hotel using React for the frontend and MongoDB, Express.js, and Node.js for the backend. 
+                        </p>
+                        <div class="btn-grp">
+                          <a href="https://github.com/maliabhi23/Mern-App">
+                            <button class="btn-pink btn-project">Read More</button>
+                          </a>
+                            <a href="https://github.com/maliabhi23/Mern-App">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="project-card" id="project2">
+                  <div class="project-number project-number-left">02</div>
+                  <div class="project-content project-content-right">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                      <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Redux.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                    </div>
+                    <h2 class="project-heading">Weather App</h2>
+                    <p class="project-sub-heading">
+                      Developed a weather application that provides real-time weather conditions worldwide using a free API. 
+                    </p>
+                    <div class="btn-group">
+
+                        <a href="https://github.com/maliabhi23/WeatherApp">
+                          <button class="btn-pink btn-project">Read More</button>
+                        </a>
+
+                      <a href="https://github.com/maliabhi23/WeatherApp">
+                        
+                        <i title="https://github.com/maliabhi23/WeatherApp" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="https://github.com/maliabhi23/WeatherApp">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="project-card" id="project3">
+                  <div class="project-number project-number-right">03</div>
+                  <div class="project-content project-content-left">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                      <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                    </div>
+          
+                    <h2 class="project-heading">PasswordGeneratorApp</h2>
+                    <p class="project-sub-heading">
+                      The application generates passwords
+                      based on specific requirements and can suggest strong or weak passwords.
+                    </p>
+                    <div class="btn-group">
+                      <a href="https://github.com/maliabhi23/PasswordGeneratorApp">
+                        <button class="btn-pink btn-project">Read More</button>
+                      </a>
+                      
+                      <a href="https://github.com/maliabhi23/PasswordGeneratorApp">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="https://github.com/maliabhi23/PasswordGeneratorApp">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="project-card" id="project4">
+                  <div class="project-number project-number-left">04</div>
+                  <div class="project-content project-content-right">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                      <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                      <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Redux.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                    </div>
+                    <h2 class="project-heading">AI-Powered Skin Cancer Detection</h2>
+                    <p class="project-sub-heading">
+                      Developed a skin cancer detection system using MobileNetV2 and Flask, with a React and Express.js frontend-backend pipeline for
+                      seamless AI integration.
+                                        </p>
+                    <div class="btn-group">
+                      <a href="https://github.com/maliabhi23/DermaSense">
+                        <button class="btn-pink btn-project">Read More</button>
+                     
+                      </a>
+                      
+                      <a href="https://github.com/maliabhi23/DermaSense">
+                       
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="https://github.com/maliabhi23/DermaSense">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                    
+                  </div>
+                </div>
+              <div class="for_more_project"> For more projects checkout my Github!</div>  
+            </div>
+
+        </div>
+        
+        <div id="skills" class="container skills-container ">
+          <div class="skill-fade-text">Skills</div>
+
+          <div class="skill-container-left">
+            <h2 class="skill-heading">
+              <span class="caps">M</span>e and
+              <br />
+              MyTech Stack
+            </h2>
+
+            <div class="skill-subHeading">
+              <p>
+                Hi everyone my name is Abhishek Mali I am a Full Stack Web Developer I
+                have been studing  in Vishwakarma Institute of Information Technology  pune and Currently I am learning  the 
+                technology stack like Machine Learning,Artifical Intelligence,Power-Bi, React, NodeJs, Express, MongoDB, NextJs, Redux, Tailwind, MaterialUI, Bootstrap, Git, Github, Graphql, Vercel, ChartJs, Bash, Docker, K8s
+              </p>
+              <p>
                 
-    </footer>
- <div class="myname">
-    <span>Developed by the Abhishek Mali </span>
- </div>
-    
-    
-</div> 
+            I am writing to express my interest . With a strong foundation in programming languages and web development, coupled with hands-on experience in building dynamic applications, I am confident in my ability to contribute effectively to your team.
 
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+            I hold expertise in various programming languages including C, C++, HTML, JavaScript, PHP, and Android development. My experience in developing a fully functional website for a hotel, which was sponsored, exemplifies my proficiency. This project involved creating a seamless connection with a PHP database and developing a responsive front-end using HTML, CSS, JavaScript, and Bootstrap. This project honed my skills in both backend and frontend development, ensuring that I can handle multiple aspects of web development projects.
 
-<script>
+              </p>
+              <p>
+                In addition to web development, I have developed an event management application for Android. This project required meticulous planning and execution, allowing me to refine my skills in mobile application development and user interface design. My ability to adapt and learn quickly enabled me to deliver a user-friendly and efficient application that met the client's needs.
+              </p>
+            </div>
+          </div>
+
+          <div class="skill-container-right">
+            <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+
+            <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+            <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/React.png" alt="" class="skills-logo" />
+            <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Next.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Redux.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Graphql.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Bash.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Docker.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/K8s.svg" alt="" class="skills-logo" />
+          </div>
+        
+        
+        
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+          <div class="footer-container">
+              <p>&copy; 2025 Abhishek Mali | All Rights Reserved</p>
+              <div class="social-icons">
+                  <a href="https://github.com/maliabhi23" target="_blank">
+                      <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/abhishek-mali-4222612b6/" target="_blank">
+                      <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://instagram.com/abhishekmali7777" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+  
+                
+                  <a href="mailto:abhishekmali9503@gmail.com">
+                      <i class="fa-solid fa-envelope "></i>
+                  </a>
+              </div>
+          </div>
+      </footer>
+
+    </div>
     
-    var typeData=new Typed(".role",{
-        strings :[
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
         "Full Stack Developer",
         "Web Developer",
-        "Android Developer",
-        ],
-        loop:true,
-        typeSpeed:100,
-        backSpeed:80,
-        backDelay:1000,
+        "UI-UX Designer",
+        "Backend Developer",
+        "ML Engineer",
+        "AI Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
     });
-</script>
-
-
+  </script>
 </body>
-
 </html>
